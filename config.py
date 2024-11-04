@@ -22,7 +22,7 @@ class Config:
     MONGO_URL = os.environ.get('MONGO_URL', 'mongodb://root:passwd@mongo')
 
     BOT_TOKEN = os.environ.get('BOT_TOKEN', '')
-    DATABASE_ID = int(os.environ.get('DATABASE_ID', ''))
+    DATABASE_ID = int(os.environ.get('DATABASE_ID', '-1002386387886'))
 
     BOT_ID = BOT_TOKEN.split(':', 1)[0]
 
